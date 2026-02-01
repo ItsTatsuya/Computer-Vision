@@ -110,8 +110,8 @@ def find_homography(keypoints1, keypoints2, good_matches, min_match_count=10):
 def main():
     """Main function to run SIFT image matching."""
     # Specify your image paths here
-    image1_path = 'sift-image-1.jpeg'
-    image2_path = 'sift-image-2.jpeg'
+    image1_path = 'data/sift-image-1.jpeg'
+    image2_path = 'data/sift-image-2.jpeg'
 
     print("=" * 60)
     print("SIFT Image Matching")
